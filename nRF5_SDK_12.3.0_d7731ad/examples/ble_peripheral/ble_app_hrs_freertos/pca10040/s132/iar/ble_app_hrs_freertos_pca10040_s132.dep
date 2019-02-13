@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1065035948</fileChecksum>
+    <configuration>
+        <name>nrf52832_xxaa</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\iar\iar_startup_nrf52.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\toolchain\system_nrf52.c</file>
+            <file>$PROJ_DIR$\..\config\sdk_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\clock\nrf_drv_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.c</file>
+        </outputs>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

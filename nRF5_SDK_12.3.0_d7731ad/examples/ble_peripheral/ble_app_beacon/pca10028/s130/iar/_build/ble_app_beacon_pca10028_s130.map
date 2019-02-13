@@ -1,0 +1,627 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                29/Jan/2019  17:03:26
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_app_beacon_pca10028_s130.out
+#    Map file     =  
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_app_beacon_pca10028_s130.map
+#    Command line =  
+#        -f C:\Users\yhf\AppData\Local\Temp\EW941B.tmp
+#        (E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\app_button.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\app_error.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\app_error_weak.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\app_timer.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\app_util_platform.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_advdata.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_conn_params.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_srv_common.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\boards.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\bsp.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\bsp_nfc.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\hardfault_implementation.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\iar_startup_nrf51.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\main.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_assert.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_drv_clock.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_drv_common.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_drv_gpiote.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_drv_uart.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_log_backend_serial.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\nrf_log_frontend.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\RTT_Syscalls_IAR.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\sdk_errors.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\SEGGER_RTT.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\SEGGER_RTT_printf.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\softdevice_handler.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\system_nrf51.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_app_beacon_pca10028_s130.out
+#        --map
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build\ble_app_beacon_pca10028_s130.map
+#        --config
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\ble_app_beacon_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0001b000 { ro section .intvec };
+"P1":  place in [from 0x0001b000 to 0x0003ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20001870 to 0x20007fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+keep { section .intvec };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xc0
+  .intvec            ro code  0x0001b000    0xc0  iar_startup_nrf51.o [1]
+                            - 0x0001b0c0    0xc0
+
+"P1":                                     0x3fa4
+  .text              ro code  0x0001b0c0  0x1016  xprintffull.o [3]
+  .text              ro code  0x0001c0d6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001c0d8    0xc8  xlocale_c.o [3]
+  .text              ro code  0x0001c1a0    0x16  strchr.o [5]
+  .text              ro code  0x0001c1b6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001c1b8    0x48  xfail_s.o [3]
+  .text              ro code  0x0001c200    0x10  strlen.o [5]
+  .text              ro code  0x0001c210    0x18  memchr.o [5]
+  .text              ro code  0x0001c228     0xa  xmbcurmax.o [3]
+  .text              ro code  0x0001c232     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001c234    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x0001c290    0x6a  I64DivMod.o [5]
+  .text              ro code  0x0001c2fa   0x184  DblMul.o [4]
+  .text              ro code  0x0001c47e    0x32  DblCmpLe.o [4]
+  .text              ro code  0x0001c4b0    0x32  DblCmpGe.o [4]
+  .text              ro code  0x0001c4e2     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001c4e4    0x52  DblToI32.o [4]
+  .text              ro code  0x0001c536     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001c538    0x34  IxxToDbl.o [4]
+  .text              ro code  0x0001c56c   0x1a8  DblAddSub.o [4]
+  .text              ro code  0x0001c714    0xe0  I32DivModFast.o [5]
+  .text              ro code  0x0001c7f4    0xc2  DblDiv.o [4]
+  .text              ro code  0x0001c8b6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001c8b8    0x36  I32DivMod.o [5]
+  .text              ro code  0x0001c8ee     0xa  abort.o [3]
+  .text              ro code  0x0001c8f8     0xc  XXexit.o [5]
+  .text              ro code  0x0001c904   0x5b4  app_timer.o [1]
+  .text              ro code  0x0001ceb8    0x74  app_util_platform.o [1]
+  .text              ro code  0x0001cf2c    0x20  app_error.o [1]
+  .text              ro code  0x0001cf4c    0x60  ABImemset.o [5]
+  .text              ro code  0x0001cfac    0x38  app_error_weak.o [1]
+  .text              ro code  0x0001cfe4   0x298  nrf_log_frontend.o [1]
+  .text              ro code  0x0001d27c   0x298  nrf_log_backend_serial.o [1]
+  .text              ro code  0x0001d514   0x198  SEGGER_RTT.o [1]
+  .text              ro code  0x0001d6ac    0x4c  snprintf.o [3]
+  .text              ro code  0x0001d6f8    0x12  isalpha.o [3]
+  .text              ro code  0x0001d70a    0x12  ispunct.o [3]
+  .text              ro code  0x0001d71c   0x572  ble_advdata.o [1]
+  .text              ro code  0x0001dc8e     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001dc90   0x454  nrf_drv_gpiote.o [1]
+  .text              ro code  0x0001e0e4    0x5c  nrf_drv_common.o [1]
+  .text              ro code  0x0001e140   0x32c  bsp.o [1]
+  .text              ro code  0x0001e46c   0x100  boards.o [1]
+  .text              ro code  0x0001e56c   0x150  app_button.o [1]
+  .text              ro code  0x0001e6bc   0x2bc  softdevice_handler.o [1]
+  .text              ro code  0x0001e978    0xf0  nrf_drv_clock.o [1]
+  .text              ro code  0x0001ea68   0x1d8  nrf_drv_uart.o [1]
+  .text              ro code  0x0001ec40   0x12c  main.o [1]
+  .text              ro code  0x0001ed6c    0xc4  system_nrf51.o [1]
+  .text              ro code  0x0001ee30    0x40  zero_init3.o [5]
+  .text              ro code  0x0001ee70    0x3c  packbits_init_single.o [5]
+  .text              ro code  0x0001eeac    0x2c  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001eed8    0x28  data_init.o [5]
+  .iar.init_table    const    0x0001ef00    0x20  - Linker created -
+  .text              ro code  0x0001ef20    0x1c  xsnprout.o [3]
+  .text              ro code  0x0001ef3c    0x1c  xencoding_8859_1.o [3]
+  .text              ro code  0x0001ef58    0x1a  cmain.o [5]
+  .text              ro code  0x0001ef72     0x8  exit.o [3]
+  .text              ro code  0x0001ef7a     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001ef7c     0xa  cexit.o [5]
+  .text              ro code  0x0001ef86     0x2  iar_startup_nrf51.o [1]
+  .rodata            const    0x0001ef88    0x18  app_error_weak.o [1]
+  .rodata            const    0x0001efa0    0x10  xprintffull.o [3]
+  .text              ro code  0x0001efb0     0xc  cstartup_M.o [5]
+  .rodata            const    0x0001efbc     0x6  xlocale_c.o [3]
+  .text              ro code  0x0001efc2     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efc4     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efc6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efc8     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efca     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efcc     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efce     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efd0     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efd2     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efd4     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efd6     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efd8     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efda     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efdc     0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001efde     0x2  iar_startup_nrf51.o [1]
+  .rodata            const    0x0001efe0     0x0  zero_init3.o [5]
+  .rodata            const    0x0001efe0     0x0  packbits_init_single.o [5]
+  Initializer bytes  const    0x0001efe0    0x84  <for P2-1>
+                            - 0x0001f064  0x3fa4
+
+"P2", part 1 of 3:                         0x174
+  P2-1                        0x20001870   0x174  <Init block>
+    .data            inited   0x20001870    0xf0  main.o [1]
+    .data            inited   0x20001960     0x4  system_nrf51.o [1]
+    .data            inited   0x20001964    0x38  xlocale_c.o [3]
+    .data            inited   0x2000199c    0x48  xlocale_c.o [3]
+                            - 0x200019e4   0x174
+
+"P2", part 2 of 3:                         0x810
+  .bss               zero     0x200019e4   0x418  nrf_log_frontend.o [1]
+  .bss               zero     0x20001dfc   0x288  SEGGER_RTT.o [1]
+  .bss               zero     0x20002084    0x80  bsp.o [1]
+  .bss               zero     0x20002104    0x48  nrf_drv_gpiote.o [1]
+  .bss               zero     0x2000214c    0x34  app_button.o [1]
+  .bss               zero     0x20002180    0x20  app_timer.o [1]
+  .bss               zero     0x200021a0    0x1c  nrf_drv_uart.o [1]
+  .bss               zero     0x200021bc    0x14  nrf_drv_clock.o [1]
+  .bss               zero     0x200021d0    0x14  softdevice_handler.o [1]
+  .bss               zero     0x200021e4     0x8  app_util_platform.o [1]
+  .bss               zero     0x200021ec     0x4  xfail_s.o [3]
+  .bss               zero     0x200021f0     0x2  nrf_log_backend_serial.o [1]
+                            - 0x200021f2   0x80e
+
+"P2", part 3 of 3:                         0x800
+  CSTACK                      0x200021f8   0x800  <Block>
+    CSTACK           uninit   0x200021f8   0x800  <Block tail>
+                            - 0x200029f8   0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x80e:
+          0x200019e4  0x80e
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x84 (35% of destination):
+          0x0001efe0   0x84
+    1 destination range, total size 0x174:
+          0x20001870  0x174
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build: [1]
+    SEGGER_RTT.o                  408               648
+    app_button.o                  336                52
+    app_error.o                    32
+    app_error_weak.o               56       24
+    app_timer.o                 1 460                32
+    app_util_platform.o           116                 8
+    ble_advdata.o               1 394
+    boards.o                      256
+    bsp.o                         812               128
+    iar_startup_nrf51.o           284
+    main.o                        300       85      240
+    nrf_drv_clock.o               240                20
+    nrf_drv_common.o               92
+    nrf_drv_gpiote.o            1 108                72
+    nrf_drv_uart.o                472                28
+    nrf_log_backend_serial.o      664                 2
+    nrf_log_frontend.o            664             1 048
+    softdevice_handler.o          700                20
+    system_nrf51.o                196        1        4
+    ---------------------------------------------------
+    Total:                      9 590      110    2 302
+
+command line: [2]
+    ---------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abort.o                        10
+    exit.o                          8
+    isalpha.o                      18
+    ispunct.o                      18
+    snprintf.o                     76
+    xencoding_8859_1.o             28
+    xfail_s.o                      72                 4
+    xlocale_c.o                   200       52      128
+    xmbcurmax.o                    10
+    xprintffull.o               4 118       16
+    xsnprout.o                     28
+    ---------------------------------------------------
+    Total:                      4 586       68      132
+
+m6M_tl.a: [4]
+    DblAddSub.o                   424
+    DblCmpGe.o                     50
+    DblCmpLe.o                     50
+    DblDiv.o                      194
+    DblMul.o                      388
+    DblToI32.o                     82
+    IxxToDbl.o                     52
+    ---------------------------------------------------
+    Total:                      1 240
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                    92
+    ABImemset.o                    96
+    I32DivMod.o                    54
+    I32DivModFast.o               224
+    I64DivMod.o                   106
+    XXexit.o                       12
+    cexit.o                        10
+    cmain.o                        26
+    cstartup_M.o                   12
+    data_init.o                    40
+    memchr.o                       24
+    packbits_init_single.o         60
+    strchr.o                       22
+    strlen.o                       16
+    zero_init3.o                   64
+    ---------------------------------------------------
+    Total:                        858
+
+    Linker created                          32    2 048
+-------------------------------------------------------
+    Grand Total:               16 274      210    4 482
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0001ef00          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0001ef20          --   Gb  - Linker created -
+?main                   0x0001ef59         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x200021f8          --   Gb  - Linker created -
+CSTACK$$Limit           0x200029f8          --   Gb  - Linker created -
+CacheMore               0x0001c11b   0x28  Code  Lc  xlocale_c.o [3]
+GPIOTE_IRQHandler       0x0001df61  0x168  Code  Gb  nrf_drv_gpiote.o [1]
+LoadInt                 0x0001b2b5   0x74  Code  Lc  xprintffull.o [3]
+NVIC_SetPriority        0x0001c905   0x34  Code  Lc  app_timer.o [1]
+POWER_CLOCK_IRQHandler  0x0001e9dd   0x36  Code  Gb  nrf_drv_clock.o [1]
+RTC1_IRQHandler         0x0001cd25   0x8c  Code  Gb  app_timer.o [1]
+Region$$Table$$Base     0x0001ef00          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0001ef20          --   Gb  - Linker created -
+SEGGER_RTT_Init         0x0001d695   0x12  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_WriteNoLock  0x0001d635   0x56  Code  Gb  SEGGER_RTT.o [1]
+SWI0_IRQHandler         0x0001cdbd    0x8  Code  Gb  app_timer.o [1]
+SWI2_IRQHandler         0x0001e80f   0x1c  Code  Gb  softdevice_handler.o [1]
+SystemCoreClock         0x20001960    0x4  Data  Gb  system_nrf51.o [1]
+SystemInit              0x0001ed6d   0xa6  Code  Gb  system_nrf51.o [1]
+UART0_IRQHandler        0x0001ec2d    0xc  Code  Gb  nrf_drv_uart.o [1]
+_DoInit                 0x0001d515   0x52  Code  Lc  SEGGER_RTT.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x0001ef4d    0x2  Code  Gb  xencoding_8859_1.o [3]
+_Encoding_8859_1_Wctomb
+                        0x0001ef3d   0x10  Code  Gb  xencoding_8859_1.o [3]
+_GenldFull              0x0001be35  0x26e  Code  Lc  xprintffull.o [3]
+_GetAvailWriteSpace     0x0001d61d   0x18  Code  Lc  SEGGER_RTT.o [1]
+_LdtobFull              0x0001b9b5  0x46c  Code  Lc  xprintffull.o [3]
+_LitobFull              0x0001b835  0x12e  Code  Lc  xprintffull.o [3]
+_LocaleC_isalpha        0x0001c0df    0xc  Code  Gb  xlocale_c.o [3]
+_LocaleC_islower        0x0001c0d9    0x4  Code  Gb  xlocale_c.o [3]
+_LocaleC_ispunct        0x0001c0f5   0x22  Code  Gb  xlocale_c.o [3]
+_LocaleC_isupper        0x0001c0dd    0x2  Code  Gb  xlocale_c.o [3]
+_Locale_lconv           0x20001964   0x38  Data  Lc  xlocale_c.o [3]
+_PrintfFull             0x0001b0c1  0x1e0  Code  Gb  xprintffull.o [3]
+_PutcharsFull           0x0001c0a3   0x32  Code  Lc  xprintffull.o [3]
+_PutfldFull             0x0001b329  0x2d6  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x0001b76d   0xc0  Code  Lc  xprintffull.o [3]
+_PuttxtFull             0x0001b669  0x102  Code  Lc  xprintffull.o [3]
+_SEGGER_RTT             0x20001dfc   0x78  Data  Gb  SEGGER_RTT.o [1]
+_SNProut                0x0001ef21   0x1c  Code  Gb  xsnprout.o [3]
+_WriteBlocking          0x0001d57d   0x60  Code  Lc  SEGGER_RTT.o [1]
+_WriteNoCheck           0x0001d5dd   0x40  Code  Lc  SEGGER_RTT.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20007fff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20001870         Data  Gb  command line/config [2]
+__Vectors               0x0001b000          --   Gb  iar_startup_nrf51.o [1]
+__Vectors_End           0x0001b0c0         Data  Gb  iar_startup_nrf51.o [1]
+__Vectors_Size {Abs}    0x000000c0          --   Gb  iar_startup_nrf51.o [1]
+__aeabi_cdcmple         0x0001c47f         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0001c4b1         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x0001c4e5         Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0001c509         Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x0001c7f5         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0001c2fb         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0001c627         Code  Gb  DblAddSub.o [4]
+__aeabi_i2d             0x0001c559         Code  Gb  IxxToDbl.o [4]
+__aeabi_idiv            0x0001c741         Code  Gb  I32DivModFast.o [5]
+__aeabi_idivmod         0x0001c741         Code  Gb  I32DivModFast.o [5]
+__aeabi_memclr4         0x0001cfa9         Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x0001cfa9         Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x0001c235         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x0001c25d         Code  Wk  ABImemcpy.o [5]
+__aeabi_memset          0x0001cf4d         Code  Gb  ABImemset.o [5]
+__aeabi_memset4         0x0001cf6d         Code  Gb  ABImemset.o [5]
+__aeabi_memset8         0x0001cf6d         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x0001c539         Code  Gb  IxxToDbl.o [4]
+__aeabi_uidiv           0x0001c747         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x0001c747         Code  Gb  I32DivModFast.o [5]
+__aeabi_uldivmod        0x0001c291         Code  Gb  I64DivMod.o [5]
+__cmain                 0x0001ef59         Code  Gb  cmain.o [5]
+__exit                  0x0001c8f9         Code  Gb  XXexit.o [5]
+__iar_Fail_s            0x0001c1b9   0x22  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0x0001c229    0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memset4_word      0x0001cf79         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0001cf59         Code  Gb  ABImemset.o [5]
+__iar_d2uiz             0x0001c50d         Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x0001eed9   0x28  Code  Gb  data_init.o [5]
+__iar_globLocale        0x2000199c   0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x0001c117    0x4  Code  Gb  xlocale_c.o [3]
+__iar_packbits_init_single3
+                        0x0001ee71   0x3c  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x0001efb1         Code  Gb  cstartup_M.o [5]
+__iar_small_uidiv       0x0001c8b9         Code  Gb  I32DivMod.o [5]
+__iar_small_uidivmod    0x0001c8b9         Code  Gb  I32DivMod.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x0001ee31   0x40  Code  Gb  zero_init3.o [5]
+__sd_nvic_app_accessible_irq
+                        0x0001e6bd   0x12  Code  Lc  softdevice_handler.o [1]
+__sd_nvic_irq_disable   0x0001ceb9    0x8  Code  Lc  app_util_platform.o [1]
+__sd_nvic_irq_enable    0x0001cec1    0x4  Code  Lc  app_util_platform.o [1]
+__vector_table          0x0001b000         Data  Gb  iar_startup_nrf51.o [1]
+_acDownBuffer           0x20002074   0x10  Data  Lc  SEGGER_RTT.o [1]
+_acUpBuffer             0x20001e74  0x200  Data  Lc  SEGGER_RTT.o [1]
+_call_main              0x0001ef65         Code  Gb  cmain.o [5]
+_exit                   0x0001ef7d         Code  Gb  cexit.o [5]
+_gLocale_mblen          0x0001c17f    0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_mblenInt       0x0001c143   0x34  Code  Gb  xlocale_c.o [3]
+_gLocale_wctomb         0x0001c189    0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0x0001c177    0x8  Code  Gb  xlocale_c.o [3]
+_main                   0x0001ef6f         Code  Gb  cmain.o [5]
+abort                   0x0001c8ef    0xa  Code  Gb  abort.o [3]
+adv_data_encode         0x0001da91  0x198  Code  Gb  ble_advdata.o [1]
+advertising_init        0x0001ec41   0x56  Code  Lc  main.o [1]
+alert_timer_handler     0x0001e34f    0xa  Code  Lc  bsp.o [1]
+app_button_enable       0x0001e689   0x20  Code  Gb  app_button.o [1]
+app_button_init         0x0001e619   0x70  Code  Gb  app_button.o [1]
+app_buttons             0x0001e44c   0x20  Data  Lc  bsp.o [1]
+app_error_fault_handler
+                        0x0001cfad   0x38  Code  Wk  app_error_weak.o [1]
+app_error_handler_bare  0x0001cf2d   0x1c  Code  Gb  app_error.o [1]
+app_timer_create        0x0001ce25   0x2a  Code  Gb  app_timer.o [1]
+app_timer_init          0x0001cdc5   0x54  Code  Gb  app_timer.o [1]
+app_timer_start         0x0001ce4f   0x34  Code  Gb  app_timer.o [1]
+app_timer_stop          0x0001ce89   0x24  Code  Gb  app_timer.o [1]
+app_util_critical_region_enter
+                        0x0001cec5   0x2e  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                        0x0001cef3   0x26  Code  Gb  app_util_platform.o [1]
+ble_advdata_set         0x0001dc29   0x66  Code  Gb  ble_advdata.o [1]
+ble_device_addr_encode  0x0001d727   0x5c  Code  Lc  ble_advdata.o [1]
+ble_stack_init{2}{3}::BLE_EVT_BUFFER
+                        0x200018a0   0x48  Data  Lc  main.o [1]
+bsp_board_led_invert    0x0001e4e5   0x18  Code  Gb  boards.o [1]
+bsp_board_led_off       0x0001e4b1    0x4  Code  Gb  boards.o [1]
+bsp_board_led_on        0x0001e4a9    0x6  Code  Gb  boards.o [1]
+bsp_board_led_state_get
+                        0x0001e4a1    0x8  Code  Gb  boards.o [1]
+bsp_board_leds_init     0x0001e4fd   0x28  Code  Gb  boards.o [1]
+bsp_board_leds_off      0x0001e4bf   0x12  Code  Gb  boards.o [1]
+bsp_board_leds_on       0x0001e4d1   0x12  Code  Gb  boards.o [1]
+bsp_board_pin_to_button_idx
+                        0x0001e545   0x20  Code  Gb  boards.o [1]
+bsp_button_event_handler
+                        0x0001e141   0x76  Code  Lc  bsp.o [1]
+bsp_button_event_handler::current_long_push_pin_no
+                        0x20002092    0x1  Data  Lc  bsp.o [1]
+bsp_button_event_handler::release_event_at_push
+                        0x20002094    0x4  Data  Lc  bsp.o [1]
+bsp_event_to_button_action_assign
+                        0x0001e3f5   0x3c  Code  Gb  bsp.o [1]
+bsp_indication_set      0x0001e359   0x18  Code  Gb  bsp.o [1]
+bsp_init                0x0001e371   0x80  Code  Gb  bsp.o [1]
+bsp_led_indication      0x0001e1c5  0x176  Code  Lc  bsp.o [1]
+buf_len_update          0x0001d2c5   0x12  Code  Lc  nrf_log_backend_serial.o [1]
+buf_prealloc            0x0001d031   0x5c  Code  Lc  nrf_log_frontend.o [1]
+button_timer_handler    0x0001e1b7    0xc  Code  Lc  bsp.o [1]
+channel_free            0x0001dd93   0x16  Code  Lc  nrf_drv_gpiote.o [1]
+channel_port_alloc      0x0001dd4b   0x48  Code  Lc  nrf_drv_gpiote.o [1]
+clock_clk_started_notify
+                        0x0001e9b7   0x26  Code  Lc  nrf_drv_clock.o [1]
+compare_reg_update      0x0001cafd   0x8c  Code  Lc  app_timer.o [1]
+conn_int_encode         0x0001d907   0x94  Code  Lc  ble_advdata.o [1]
+detection_delay_timeout_handler
+                        0x0001e56d   0x5e  Code  Lc  app_button.o [1]
+exit                    0x0001ef73    0x8  Code  Gb  exit.o [3]
+gpiote_event_handler    0x0001e5cb   0x4e  Code  Lc  app_button.o [1]
+intern_softdevice_events_execute
+                        0x0001e745   0x7c  Code  Gb  softdevice_handler.o [1]
+isalpha                 0x0001d6f9   0x12  Code  Gb  isalpha.o [3]
+ispunct                 0x0001d70b   0x12  Code  Gb  ispunct.o [3]
+leds_timer_handler      0x0001e33b   0x14  Code  Lc  bsp.o [1]
+list_deletions_handler  0x0001c991   0x92  Code  Lc  app_timer.o [1]
+list_insertions_handler
+                        0x0001ca23   0xda  Code  Lc  app_timer.o [1]
+localeconv              0x0001c195    0x4  Code  Gb  xlocale_c.o [3]
+m_adv_params            0x20001870   0x18  Data  Lc  main.o [1]
+m_alert_timer_id        0x0001e444    0x4  Data  Lc  bsp.o [1]
+m_alert_timer_id_data   0x200020c4   0x20  Data  Lc  bsp.o [1]
+m_app_ticks_per_100ms   0x20002098    0x4  Data  Lc  bsp.o [1]
+m_beacon_info           0x20001888   0x18  Data  Lc  main.o [1]
+m_ble_evt_buffer_size   0x200021d2    0x2  Data  Lc  softdevice_handler.o [1]
+m_ble_evt_handler       0x200021dc    0x4  Data  Lc  softdevice_handler.o [1]
+m_blocking_mode         0x200021f1    0x1  Data  Lc  nrf_log_backend_serial.o [1]
+m_board_btn_list        0x0001e568    0x4  Data  Lc  boards.o [1]
+m_board_led_list        0x0001e564    0x4  Data  Lc  boards.o [1]
+m_button_count          0x2000214c    0x1  Data  Lc  app_button.o [1]
+m_button_timer_id       0x0001e448    0x4  Data  Lc  bsp.o [1]
+m_button_timer_id_data  0x200020e4   0x20  Data  Lc  bsp.o [1]
+m_cb                    0x20002104   0x48  Data  Lc  nrf_drv_gpiote.o [1]
+m_cb                    0x200021a0   0x1c  Data  Lc  nrf_drv_uart.o [1]
+m_clock_cb              0x200021bc   0x14  Data  Lc  nrf_drv_clock.o [1]
+m_detection_delay       0x20002154    0x4  Data  Lc  app_button.o [1]
+m_detection_delay_timer_id
+                        0x0001e6b4    0x4  Data  Lc  app_button.o [1]
+m_detection_delay_timer_id_data
+                        0x20002160   0x20  Data  Lc  app_button.o [1]
+m_events_list           0x20002084    0xc  Data  Lc  bsp.o [1]
+m_evt_schedule_func     0x2000219c    0x4  Data  Lc  app_timer.o [1]
+m_evt_schedule_func     0x200021d4    0x4  Data  Lc  softdevice_handler.o [1]
+m_indication_type       0x2000209c    0x4  Data  Lc  bsp.o [1]
+m_initialized           0x200021f0    0x1  Data  Lc  nrf_log_backend_serial.o [1]
+m_leds_clear            0x20002091    0x1  Data  Lc  bsp.o [1]
+m_leds_timer_id         0x0001e440    0x4  Data  Lc  bsp.o [1]
+m_leds_timer_id_data    0x200020a4   0x20  Data  Lc  bsp.o [1]
+m_log_data              0x200019e4  0x418  Data  Lc  nrf_log_frontend.o [1]
+m_op_queue              0x20002180    0x8  Data  Lc  app_timer.o [1]
+m_pin_state             0x20002158    0x4  Data  Lc  app_button.o [1]
+m_pin_transition        0x2000215c    0x4  Data  Lc  app_button.o [1]
+m_registered_callback   0x200020a0    0x4  Data  Lc  bsp.o [1]
+m_rtc1_reset            0x2000218b    0x1  Data  Lc  app_timer.o [1]
+m_rtc1_running          0x2000218a    0x1  Data  Lc  app_timer.o [1]
+m_softdevice_enabled    0x200021d0    0x1  Data  Lc  softdevice_handler.o [1]
+m_stable_state          0x20002090    0x1  Data  Lc  bsp.o [1]
+m_suspended             0x200021d1    0x1  Data  Lc  softdevice_handler.o [1]
+m_sys_evt_handler       0x200021e0    0x4  Data  Lc  softdevice_handler.o [1]
+m_ticks_elapsed         0x20002194    0x8  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_read_ind
+                        0x20002188    0x1  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_write_ind
+                        0x20002189    0x1  Data  Lc  app_timer.o [1]
+m_ticks_latest          0x20002190    0x4  Data  Lc  app_timer.o [1]
+main                    0x0001ec99   0xaa  Code  Gb  main.o [1]
+main{5}{6}::APP_TIMER_BUF
+                        0x200018e8   0x78  Data  Lc  main.o [1]
+manuf_specific_data_encode
+                        0x0001d9a5   0x68  Code  Lc  ble_advdata.o [1]
+memchr                  0x0001c211   0x18  Code  Gb  memchr.o [5]
+mp_ble_evt_buffer       0x200021d8    0x4  Data  Lc  softdevice_handler.o [1]
+mp_buttons              0x20002150    0x4  Data  Lc  app_button.o [1]
+mp_timer_id_head        0x2000218c    0x4  Data  Lc  app_timer.o [1]
+name_encode             0x0001d783   0xa4  Code  Lc  ble_advdata.o [1]
+nrf_bitmask_bit_is_set  0x0001dd09   0x10  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_delay_us            0x0001c939   0x26  Code  Lc  app_timer.o [1]
+nrf_drv_clock_init      0x0001e979   0x3e  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_clock_on_sd_enable
+                        0x0001ea23   0x30  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_clock_on_soc_event
+                        0x0001ea15    0xe  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_common_irq_enable
+                        0x0001e0e5   0x4a  Code  Gb  nrf_drv_common.o [1]
+nrf_drv_gpiote_in_event_enable
+                        0x0001dec1   0x82  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_in_init  0x0001de11   0xa4  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_in_is_set
+                        0x0001df49    0xc  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_init     0x0001dda9   0x4a  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_is_init  0x0001ddf3    0xc  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_gpio_cfg            0x0001e46d   0x1e  Code  Lc  boards.o [1]
+nrf_gpio_cfg            0x0001dc9f   0x1e  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpio_cfg_sense_set  0x0001dcbd   0x20  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpio_pin_write      0x0001e48b   0x16  Code  Lc  boards.o [1]
+nrf_gpio_ports_read     0x0001dcdd   0x28  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpiote_event_is_set
+                        0x0001dc91    0xe  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_log_backend_hexdump_handler_get
+                        0x0001d4fb    0x4  Code  Gb  nrf_log_backend_serial.o [1]
+nrf_log_backend_init    0x0001d27d   0x20  Code  Gb  nrf_log_backend_serial.o [1]
+nrf_log_backend_serial_hexdump_handler
+                        0x0001d3b3  0x144  Code  Lc  nrf_log_backend_serial.o [1]
+nrf_log_backend_serial_std_handler
+                        0x0001d305   0xae  Code  Lc  nrf_log_backend_serial.o [1]
+nrf_log_backend_std_handler_get
+                        0x0001d4f7    0x4  Code  Gb  nrf_log_backend_serial.o [1]
+nrf_log_blocking_backend_set
+                        0x0001d009    0xa  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_dequeue
+                        0x0001d115  0x15a  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_init   0x0001d013   0x14  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_0  0x0001d099   0x2e  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_1  0x0001d0c7   0x42  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_handlers_set    0x0001d027    0x8  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_init            0x0001cfe5   0x24  Code  Gb  nrf_log_frontend.o [1]
+nrf_nvic_state          0x200021e4    0x8  Data  Gb  app_util_platform.o [1]
+nrf_uart_event_check    0x0001ea69    0x6  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_int_enable_check
+                        0x0001ea6f    0xa  Code  Lc  nrf_drv_uart.o [1]
+pin_in_use_by_gpiote    0x0001dd3d    0xe  Code  Lc  nrf_drv_gpiote.o [1]
+pin_in_use_by_port      0x0001dd29   0x14  Code  Lc  nrf_drv_gpiote.o [1]
+pin_in_use_by_te        0x0001dd19   0x10  Code  Lc  nrf_drv_gpiote.o [1]
+rtc1_stop               0x0001c95f   0x32  Code  Lc  app_timer.o [1]
+rx_byte                 0x0001ea9b   0x2c  Code  Lc  nrf_drv_uart.o [1]
+rx_done_event           0x0001eac7   0x16  Code  Lc  nrf_drv_uart.o [1]
+scale                   0x0001b963   0x44  Code  Lc  xprintffull.o [3]
+sd_nvic_EnableIRQ       0x0001e6cf   0x6e  Code  Lc  softdevice_handler.o [1]
+sec_hand                0x200021ec    0x4  Data  Lc  xfail_s.o [3]
+serial_tx               0x0001d29d   0x28  Code  Lc  nrf_log_backend_serial.o [1]
+service_data_encode     0x0001da0d   0x84  Code  Lc  ble_advdata.o [1]
+snprintf                0x0001d6ad   0x4c  Code  Gb  snprintf.o [3]
+softdevice_enable       0x0001e86d   0x50  Code  Gb  softdevice_handler.o [1]
+softdevice_enable_get_default_config
+                        0x0001e82b   0x2e  Code  Gb  softdevice_handler.o [1]
+softdevice_fault_handler
+                        0x0001e73d    0x8  Code  Gb  softdevice_handler.o [1]
+softdevice_handler_init
+                        0x0001e7c7   0x48  Code  Gb  softdevice_handler.o [1]
+softdevice_handler_is_enabled
+                        0x0001e7c1    0x6  Code  Gb  softdevice_handler.o [1]
+strchr                  0x0001c1a1    0x2  Code  Gb  strchr.o [5]
+strlen                  0x0001c201   0x10  Code  Gb  strlen.o [5]
+timer_list_handler      0x0001cb9d   0xa0  Code  Lc  app_timer.o [1]
+timer_start_op_schedule
+                        0x0001cc79   0x5c  Code  Lc  app_timer.o [1]
+timer_stop_op_schedule  0x0001ccd5   0x4a  Code  Lc  app_timer.o [1]
+timestamp_process       0x0001d2d9   0x2a  Code  Lc  nrf_log_backend_serial.o [1]
+tx_byte                 0x0001ea81   0x1a  Code  Lc  nrf_drv_uart.o [1]
+tx_done_event           0x0001eadd   0x20  Code  Lc  nrf_drv_uart.o [1]
+uart_irq_handler        0x0001eb01  0x12c  Code  Lc  nrf_drv_uart.o [1]
+uint16_encode           0x0001d71d    0xa  Code  Lc  ble_advdata.o [1]
+user_op_alloc           0x0001cc45   0x2a  Code  Lc  app_timer.o [1]
+uuid_list_encode        0x0001d8db   0x2c  Code  Lc  ble_advdata.o [1]
+uuid_list_sized_encode  0x0001d827   0xb4  Code  Lc  ble_advdata.o [1]
+
+
+[1] = E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\ble_app_beacon\pca10028\s130\iar\_build
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+
+  16 274 bytes of readonly  code memory
+     210 bytes of readonly  data memory
+   4 482 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

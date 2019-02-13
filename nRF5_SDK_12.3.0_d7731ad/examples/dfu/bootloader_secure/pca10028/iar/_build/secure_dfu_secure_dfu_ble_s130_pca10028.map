@@ -1,0 +1,777 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.2.13589/W32 for ARM                11/Feb/2019  17:47:05
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\secure_dfu_secure_dfu_ble_s130_pca10028.out
+#    Map file     =  
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\secure_dfu_secure_dfu_ble_s130_pca10028.map
+#    Command line =  
+#        -f C:\Users\yhf\AppData\Local\Temp\EW80B8.tmp
+#        (E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\app_error_weak.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\app_scheduler.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\app_timer.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\app_timer_appsh.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\app_util_platform.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\ble_advdata.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\ble_conn_params.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\ble_srv_common.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\boards.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\crc32.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\dfu-cc.pb.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\dfu_req_handling.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\ecc.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\fstorage.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\hci_mem_pool.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\iar_startup_nrf51.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\main.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\external\micro-ecc\nrf51_iar\armgcc\micro_ecc_lib_nrf51.a
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_assert.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_ble_dfu.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_bootloader.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_bootloader_app_start.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_bootloader_info.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_crypto.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_dfu.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_dfu_flash.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_dfu_mbr.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_dfu_settings.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_dfu_transport.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_dfu_utils.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_drv_common.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_drv_rng.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_nvmc.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\nrf_queue.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\pb_common.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\pb_decode.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\public_key.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\sdk_errors.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\sha256.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\softdevice_handler.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\softdevice_handler_appsh.o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\system_nrf51.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\secure_dfu_secure_dfu_ble_s130_pca10028.out
+#        --map
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build\secure_dfu_secure_dfu_ble_s130_pca10028.map
+#        --config
+#        E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\secure_dfu_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0003ac00 { ro section .intvec };
+"P1":  place in [from 0x0003ac00 to 0x0003fbff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20002c00 to 0x20007f7f] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+keep { section .intvec };
+
+  Section                 Kind        Address    Size  Object
+  -------                 ----        -------    ----  ------
+"A0":                                            0xc0
+  .intvec                 ro code  0x0003ac00    0xc0  iar_startup_nrf51.o [1]
+                                 - 0x0003acc0    0xc0
+
+"P1":                                          0x4ab9
+  .text                   ro code  0x0003acc0   0x960  pb_decode.o [1]
+  .text                   ro code  0x0003b620    0x5c  ABImemcpy.o [5]
+  .text                   ro code  0x0003b67c    0x22  I64Shl.o [5]
+  .text                   ro code  0x0003b69e     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003b6a0    0x64  ABImemset.o [5]
+  .text                   ro code  0x0003b704    0xd4  pb_common.o [1]
+  .text                   ro code  0x0003b7d8   0x770  dfu_req_handling.o [1]
+  .text                   ro code  0x0003bf48    0x5c  nrf_dfu_transport.o [1]
+  .text                   ro code  0x0003bfa4    0x78  nrf_crypto.o [1]
+  .text                   ro code  0x0003c01c   0x2ec  nrf_dfu_utils.o [1]
+  .text                   ro code  0x0003c308    0x28  memcmp.o [5]
+  .text                   ro code  0x0003c330   0x134  nrf_dfu_settings.o [1]
+  .text                   ro code  0x0003c464    0x44  crc32.o [1]
+  .text                   ro code  0x0003c4a8   0x154  nrf_dfu_flash.o [1]
+  .text                   ro code  0x0003c5fc    0x98  nrf_dfu.o [1]
+  .text                   ro code  0x0003c694    0x44  ecc.o [1]
+  .text                   ro code  0x0003c6d8   0x480  sha256.o [1]
+  .text                   ro code  0x0003cb58    0xb8  nrf_dfu_mbr.o [1]
+  .text                   ro code  0x0003cc10    0xfc  app_scheduler.o [1]
+  .text                   ro code  0x0003cd0c   0x2f8  fstorage.o [1]
+  .text                   ro code  0x0003d004    0x60  main.o [1]
+  .text                   ro code  0x0003d064   0x1fc  softdevice_handler.o [1]
+  .text                   ro code  0x0003d260    0x68  nrf_nvmc.o [1]
+  .text                   ro code  0x0003d2c8    0x38  nrf_dfu.o [1]
+  .text                   ro code  0x0003d300   0x5b4  app_timer.o [1]
+  .text                   ro code  0x0003d8b4    0x58  nrf_bootloader_app_start.o [1]
+  .text.uECC_secp256r1    ro code  0x0003d90c     0x8  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_verify       ro code  0x0003d914   0x2a8  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003dbbc    0x74  app_util_platform.o [1]
+  .text                   ro code  0x0003dc30    0x90  boards.o [1]
+  .text                   ro code  0x0003dcc0     0x8  nrf_bootloader.o [1]
+  .text.bcopy             ro code  0x0003dcc8     0xe  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_isZero   ro code  0x0003dcd6    0x1c  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_cmp_unsafe
+                          ro code  0x0003dcf2    0x28  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_modInv   ro code  0x0003dd1a   0x114  micro_ecc_lib_uECC.c.o [4]
+  .text.bits2int          ro code  0x0003de2e    0x8e  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_modMult  ro code  0x0003debc    0x26  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_set      ro code  0x0003dee2    0x16  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_modSub   ro code  0x0003def8    0x24  micro_ecc_lib_uECC.c.o [4]
+  .text.XYcZ_add          ro code  0x0003df1c    0xc8  micro_ecc_lib_uECC.c.o [4]
+  .text.apply_z           ro code  0x0003dfe4    0x3e  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003e022     0x2  iar_startup_nrf51.o [1]
+  .text.uECC_vli_numBits  ro code  0x0003e024    0x44  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_testBit  ro code  0x0003e068    0x12  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_clear    ro code  0x0003e07a    0x16  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_sub      ro code  0x0003e090    0x5c  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_equal    ro code  0x0003e0ec    0x20  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_modMult_fast
+                          ro code  0x0003e10c    0x20  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_rshift1  ro code  0x0003e12c    0x1e  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003e14a     0x2  iar_startup_nrf51.o [1]
+  .text.vli_modInv_update
+                          ro code  0x0003e14c    0x40  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_add      ro code  0x0003e190    0x58  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_mult     ro code  0x0003e1e8    0x98  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_mmod     ro code  0x0003e280   0x118  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_modSquare_fast
+                          ro code  0x0003e398    0x20  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_square   ro code  0x0003e3b8    0xa6  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003e45e     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003e460   0x748  nrf_ble_dfu.o [1]
+  .text                   ro code  0x0003eba8    0x16  ble_srv_common.o [1]
+  .text                   ro code  0x0003ebbe     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003ebc0   0x1b0  ble_conn_params.o [1]
+  .text.vli_mmod_fast_secp256r1
+                          ro code  0x0003ed70   0x1b4  micro_ecc_lib_uECC.c.o [4]
+  .text.double_jacobian_default
+                          ro code  0x0003ef24   0x158  micro_ecc_lib_uECC.c.o [4]
+  .text.uECC_vli_modAdd   ro code  0x0003f07c    0x32  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003f0ae     0x2  iar_startup_nrf51.o [1]
+  .rodata                 const    0x0003f0b0   0x13c  dfu-cc.pb.o [1]
+  .text                   ro code  0x0003f1ec    0xfc  nrf_queue.o [1]
+  .text                   ro code  0x0003f2e8    0xc4  system_nrf51.o [1]
+  .rodata.curve_secp256r1
+                          const    0x0003f3ac    0xb0  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003f45c    0x7c  nrf_drv_rng.o [1]
+  .text.x_side_default    ro code  0x0003f4d8    0x5c  micro_ecc_lib_uECC.c.o [4]
+  .text                   ro code  0x0003f534    0x14  memset.o [5]
+  .rodata                 const    0x0003f548    0x40  public_key.o [1]
+  .text                   ro code  0x0003f588    0x40  zero_init3.o [5]
+  .text                   ro code  0x0003f5c8    0x3c  packbits_init_single.o [5]
+  .text                   ro code  0x0003f604    0x30  app_timer_appsh.o [1]
+  .text                   ro code  0x0003f634    0x2c  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f660    0x28  data_init.o [5]
+  .text                   ro code  0x0003f688    0x24  softdevice_handler_appsh.o [1]
+  .iar.init_table         const    0x0003f6ac    0x30  - Linker created -
+  .text                   ro code  0x0003f6dc    0x1a  cmain.o [5]
+  .text                   ro code  0x0003f6f6     0x8  exit.o [3]
+  .text                   ro code  0x0003f6fe     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f700     0xa  cexit.o [5]
+  .text                   ro code  0x0003f70a     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f70c     0xc  XXexit.o [5]
+  .text                   ro code  0x0003f718     0xc  cstartup_M.o [5]
+  dfu_trans                        0x0003f724     0x8  <Block>
+    dfu_trans             const    0x0003f724     0x8  nrf_ble_dfu.o [1]
+  .text                   ro code  0x0003f72c     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f72e     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f730     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f732     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f734     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f736     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f738     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f73a     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f73c     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f73e     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f740     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f742     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f744     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f746     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f748     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f74a     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f74c     0x2  iar_startup_nrf51.o [1]
+  .text                   ro code  0x0003f74e     0x2  iar_startup_nrf51.o [1]
+  .rodata                 const    0x0003f750     0x0  zero_init3.o [5]
+  .rodata                 const    0x0003f750     0x0  packbits_init_single.o [5]
+  Initializer bytes       const    0x0003f750    0x1b  <for P2-1>
+  Initializer bytes       const    0x0003f76b     0xe  <for fs_data-1>
+                                 - 0x0003f779  0x4ab9
+
+Absolute sections, part 1 of 2:                 0x400
+  .noinit                 uninit   0x0003fc00   0x400  nrf_dfu_settings.o [1]
+                                 - 0x00040000   0x400
+
+Absolute sections, part 2 of 2:                   0x4
+  .rodata                 const    0x10001014     0x4  nrf_bootloader_info.o [1]
+                                 - 0x10001018     0x4
+
+"P2", part 1 of 3:                               0xa0
+  P2-1                             0x20002c00    0x8d  <Init block>
+    .data                 inited   0x20002c00     0xc  fstorage.o [1]
+    .data                 inited   0x20002c0c    0x78  nrf_ble_dfu.o [1]
+    .data                 inited   0x20002c84     0x4  nrf_dfu_transport.o [1]
+    .data                 inited   0x20002c88     0x4  system_nrf51.o [1]
+    .data                 inited   0x20002c8c     0x1  dfu_req_handling.o [1]
+  fs_data                          0x20002c90    0x10  <Block>
+    fs_data-1                      0x20002c90    0x10  <Init block>
+      fs_data             inited   0x20002c90    0x10  nrf_dfu_flash.o [1]
+                                 - 0x20002ca0    0xa0
+
+"P2", part 2 of 3:                              0xb7c
+  .bss                    zero     0x20002ca0   0x490  dfu_req_handling.o [1]
+  .bss                    zero     0x20003130   0x1c8  nrf_dfu.o [1]
+  .bss                    zero     0x200032f8   0x164  nrf_dfu_settings.o [1]
+  .bss                    zero     0x2000345c   0x15c  nrf_dfu_settings.o [1]
+  .bss                    zero     0x200035b8   0x12c  dfu_req_handling.o [1]
+  .bss                    zero     0x200036e4    0x68  fstorage.o [1]
+  .bss                    zero     0x2000374c    0x40  ble_conn_params.o [1]
+  .bss                    zero     0x2000378c    0x24  nrf_drv_rng.o [1]
+  .bss                    zero     0x200037b0    0x20  app_timer.o [1]
+  .bss                    zero     0x200037d0    0x14  softdevice_handler.o [1]
+  .bss                    zero     0x200037e4    0x10  app_scheduler.o [1]
+  .bss                    zero     0x200037f4     0xc  nrf_drv_rng.o [1]
+  .bss                    zero     0x20003800     0x8  app_util_platform.o [1]
+  .bss                    zero     0x20003808     0x8  ble_conn_params.o [1]
+  .bss                    zero     0x20003810     0x8  ble_conn_params.o [1]
+  .bss                    zero     0x20003818     0x4  nrf_dfu_flash.o [1]
+                                 - 0x2000381c   0xb7c
+
+"P2", part 3 of 3:                              0x800
+  CSTACK                           0x20003820   0x800  <Block>
+    CSTACK                uninit   0x20003820   0x800  <Block tail>
+                                 - 0x20004020   0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xb7c:
+          0x20002ca0  0xb7c
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x1b (19% of destination):
+          0x0003f750   0x1b
+    1 destination range, total size 0x8d:
+          0x20002c00   0x8d
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xe (87% of destination):
+          0x0003f76b    0xe
+    1 destination range, total size 0x10:
+          0x20002c90   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                      ro code  ro data  rw data  ro data  rw data
+                                                            (abs)    (abs)
+    ------                      -------  -------  -------  -------  -------
+E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build: [1]
+    app_scheduler.o                 252                16
+    app_timer.o                   1 460                32
+    app_timer_appsh.o                48
+    app_util_platform.o             116                 8
+    ble_conn_params.o               432                80
+    ble_srv_common.o                 22
+    boards.o                        144
+    crc32.o                          68
+    dfu-cc.pb.o                              316
+    dfu_req_handling.o            1 904        1    1 469
+    ecc.o                            68
+    fstorage.o                      760        2      116
+    iar_startup_nrf51.o             288
+    main.o                           96
+    nrf_ble_dfu.o                 1 864       31      120
+    nrf_bootloader.o                  8
+    nrf_bootloader_app_start.o       88
+    nrf_bootloader_info.o                                        4
+    nrf_crypto.o                    120
+    nrf_dfu.o                       208               456
+    nrf_dfu_flash.o                 340       14       20
+    nrf_dfu_mbr.o                   184
+    nrf_dfu_settings.o              308               704             1 024
+    nrf_dfu_transport.o              92        1        4
+    nrf_dfu_utils.o                 748
+    nrf_drv_rng.o                   124                48
+    nrf_nvmc.o                      104
+    nrf_queue.o                     252
+    pb_common.o                     212
+    pb_decode.o                   2 400
+    public_key.o                              64
+    sha256.o                      1 152
+    softdevice_handler.o            508                20
+    softdevice_handler_appsh.o       36
+    system_nrf51.o                  196                 4
+    -----------------------------------------------------------------------
+    Total:                       14 602      429    3 097        4    1 024
+
+command line: [2]
+    -----------------------------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                            8
+    -----------------------------------------------------------------------
+    Total:                            8
+
+micro_ecc_lib_nrf51.a: [4]
+    micro_ecc_lib_uECC.c.o        3 544      176
+    -----------------------------------------------------------------------
+    Total:                        3 544      176
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                      92
+    ABImemset.o                     100
+    I64Shl.o                         34
+    XXexit.o                         12
+    cexit.o                          10
+    cmain.o                          26
+    cstartup_M.o                     12
+    data_init.o                      40
+    memcmp.o                         40
+    memset.o                         20
+    packbits_init_single.o           60
+    zero_init3.o                     64
+    -----------------------------------------------------------------------
+    Total:                          510
+
+    Gaps                              4
+    Linker created                            48    2 048
+---------------------------------------------------------------------------
+    Grand Total:                 18 668      653    5 145        4    1 024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0003f6ac          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0003f6dc          --   Gb  - Linker created -
+?main                   0x0003f6dd         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x20003820          --   Gb  - Linker created -
+CSTACK$$Limit           0x20004020          --   Gb  - Linker created -
+NVIC_SetPriority        0x0003d301   0x34  Code  Lc  app_timer.o [1]
+NVIC_SystemReset        0x0003d005   0x12  Code  Lc  main.o [1]
+PB_DECODERS             0x0003afe0   0x24  Data  Lc  pb_decode.o [1]
+RNG_IRQHandler          0x0003f45d   0x56  Code  Gb  nrf_drv_rng.o [1]
+RTC1_IRQHandler         0x0003d721   0x8c  Code  Gb  app_timer.o [1]
+Region$$Table$$Base     0x0003f6ac          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0003f6dc          --   Gb  - Linker created -
+SWI0_IRQHandler         0x0003d7b9    0x8  Code  Gb  app_timer.o [1]
+SWI2_IRQHandler         0x0003d1d5   0x1c  Code  Gb  softdevice_handler.o [1]
+SystemCoreClock         0x20002c88    0x4  Data  Gb  system_nrf51.o [1]
+SystemInit              0x0003f2e9   0xa6  Code  Gb  system_nrf51.o [1]
+XYcZ_add                0x0003df1d   0xc8  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20007f7f         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20002c00         Data  Gb  command line/config [2]
+__Vectors               0x0003ac00          --   Gb  iar_startup_nrf51.o [1]
+__Vectors_End           0x0003acc0         Data  Gb  iar_startup_nrf51.o [1]
+__Vectors_Size {Abs}    0x000000c0          --   Gb  iar_startup_nrf51.o [1]
+__aeabi_llsl            0x0003b67d         Code  Gb  I64Shl.o [5]
+__aeabi_memclr          0x0003b6fd         Code  Gb  ABImemset.o [5]
+__aeabi_memclr4         0x0003b701         Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x0003b701         Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x0003b621         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x0003b649         Code  Wk  ABImemcpy.o [5]
+__aeabi_memset          0x0003b6a1         Code  Gb  ABImemset.o [5]
+__aeabi_memset4         0x0003b6c1         Code  Gb  ABImemset.o [5]
+__aeabi_memset8         0x0003b6c1         Code  Gb  ABImemset.o [5]
+__cmain                 0x0003f6dd         Code  Gb  cmain.o [5]
+__exit                  0x0003f70d         Code  Gb  XXexit.o [5]
+__iar_Memset4_word      0x0003b6cd         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0003b6ad         Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x0003f661   0x28  Code  Gb  data_init.o [5]
+__iar_packbits_init_single3
+                        0x0003f5c9   0x3c  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x0003f719         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x0003f589   0x40  Code  Gb  zero_init3.o [5]
+__sd_nvic_app_accessible_irq
+                        0x0003d065   0x12  Code  Lc  softdevice_handler.o [1]
+__sd_nvic_irq_disable   0x0003dbbd    0x8  Code  Lc  app_util_platform.o [1]
+__sd_nvic_irq_enable    0x0003dbc5    0x4  Code  Lc  app_util_platform.o [1]
+__vector_table          0x0003ac00         Data  Gb  iar_startup_nrf51.o [1]
+_call_main              0x0003f6e9         Code  Gb  cmain.o [5]
+_exit                   0x0003f701         Code  Gb  cexit.o [5]
+_main                   0x0003f6f3         Code  Gb  cmain.o [5]
+advertising_start       0x0003e47b   0xa0  Code  Lc  nrf_ble_dfu.o [1]
+align_to_page           0x0003c01d    0xa  Code  Lc  nrf_dfu_utils.o [1]
+app_error_fault_handler
+                        0x0003d017    0x8  Code  Gb  main.o [1]
+app_error_handler_bare  0x0003d01f    0x8  Code  Gb  main.o [1]
+app_sched_event_put     0x0003cc49   0x8c  Code  Gb  app_scheduler.o [1]
+app_sched_execute       0x0003ccd5   0x2e  Code  Gb  app_scheduler.o [1]
+app_sched_init          0x0003cc23   0x26  Code  Gb  app_scheduler.o [1]
+app_timer_create        0x0003d821   0x2a  Code  Gb  app_timer.o [1]
+app_timer_evt_get       0x0003f605   0x16  Code  Lc  app_timer_appsh.o [1]
+app_timer_evt_schedule  0x0003f61b   0x14  Code  Gb  app_timer_appsh.o [1]
+app_timer_init          0x0003d7c1   0x54  Code  Gb  app_timer.o [1]
+app_timer_start         0x0003d84b   0x34  Code  Gb  app_timer.o [1]
+app_timer_stop          0x0003d885   0x24  Code  Gb  app_timer.o [1]
+app_util_critical_region_enter
+                        0x0003dbc9   0x2e  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                        0x0003dbf7   0x26  Code  Gb  app_util_platform.o [1]
+apply_z                 0x0003dfe5   0x3e  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+bcopy                   0x0003dcc9    0xe  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+bits2int                0x0003de2f   0x8e  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+ble_conn_params_init    0x0003ec2d   0x4a  Code  Gb  ble_conn_params.o [1]
+ble_conn_params_on_ble_evt
+                        0x0003ecdb   0x7a  Code  Gb  ble_conn_params.o [1]
+ble_conn_params_stop    0x0003ec77    0xa  Code  Gb  ble_conn_params.o [1]
+ble_dfu_init            0x0003e8d9  0x102  Code  Gb  nrf_ble_dfu.o [1]
+ble_dfu_transport_close
+                        0x0003ead9   0x6e  Code  Gb  nrf_ble_dfu.o [1]
+ble_dfu_transport_init  0x0003e9dd   0xf4  Code  Gb  nrf_ble_dfu.o [1]
+ble_evt_dispatch        0x0003e8c7   0x10  Code  Lc  nrf_ble_dfu.o [1]
+ble_srv_is_notification_enabled
+                        0x0003ebb3    0xc  Code  Gb  ble_srv_common.o [1]
+ble_stack_init{8}{9}::BLE_EVT_BUFFER
+                        0x20002c3c   0x48  Data  Lc  nrf_ble_dfu.o [1]
+bsp_board_led_off       0x0003dc6d    0x4  Code  Gb  boards.o [1]
+bsp_board_led_on        0x0003dc65    0x6  Code  Gb  boards.o [1]
+bsp_board_leds_init     0x0003dc8d   0x28  Code  Gb  boards.o [1]
+bsp_board_leds_off      0x0003dc7b   0x12  Code  Gb  boards.o [1]
+buf_read                0x0003acc1   0x22  Code  Lc  pb_decode.o [1]
+check_config            0x0003cd55   0x1a  Code  Lc  fstorage.o [1]
+compare_reg_update      0x0003d4f9   0x8c  Code  Lc  app_timer.o [1]
+conn_params_error_handler
+                        0x0003e473    0x8  Code  Lc  nrf_ble_dfu.o [1]
+conn_params_negotiation
+                        0x0003ec81   0x5a  Code  Lc  ble_conn_params.o [1]
+crc32_compute           0x0003c465   0x44  Code  Gb  crc32.o [1]
+crypto_key_pk           0x0003b99c    0x8  Data  Lc  dfu_req_handling.o [1]
+crypto_sig              0x20002cb4    0x8  Data  Lc  dfu_req_handling.o [1]
+curve_secp256r1         0x0003f3ac   0xb0  Data  Lc  micro_ecc_lib_uECC.c.o [4]
+decode_callback_field   0x0003b005   0xa6  Code  Lc  pb_decode.o [1]
+decode_extension        0x0003b0fb   0x62  Code  Lc  pb_decode.o [1]
+decode_field            0x0003b0ab   0x22  Code  Lc  pb_decode.o [1]
+decode_static_field     0x0003aef9   0xe8  Code  Lc  pb_decode.o [1]
+delay_operation         0x0003c349   0x2a  Code  Lc  nrf_dfu_settings.o [1]
+dfu_command_fields      0x0003f168   0x30  Data  Gb  dfu-cc.pb.o [1]
+dfu_data_write_handler  0x0003b7f1    0xa  Code  Lc  dfu_req_handling.o [1]
+dfu_decode_commmand     0x0003ba9d   0x3a  Code  Lc  dfu_req_handling.o [1]
+dfu_handle_prevalidate  0x0003b815  0x186  Code  Lc  dfu_req_handling.o [1]
+dfu_hash_fields         0x0003f0b4   0x24  Data  Gb  dfu-cc.pb.o [1]
+dfu_init_command_fields
+                        0x0003f0d8   0x78  Data  Gb  dfu-cc.pb.o [1]
+dfu_init_command_is_debug_default
+                        0x0003f0b0    0x1  Data  Gb  dfu-cc.pb.o [1]
+dfu_packet_fields       0x0003f1c8   0x24  Data  Gb  dfu-cc.pb.o [1]
+dfu_reset_command_fields
+                        0x0003f150   0x18  Data  Gb  dfu-cc.pb.o [1]
+dfu_settings_write_callback
+                        0x0003c331   0x16  Code  Lc  nrf_dfu_settings.o [1]
+dfu_signed_command_fields
+                        0x0003f198   0x30  Data  Gb  dfu-cc.pb.o [1]
+dfu_trans               0x0003f724    0x8  Data  Gb  nrf_ble_dfu.o [1]
+dfu_trans$$Base         0x0003f724          --   Gb  - Linker created -
+dfu_trans$$Limit        0x0003f72c          --   Gb  - Linker created -
+double_jacobian_default
+                        0x0003ef25  0x158  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+ecc_p256_verify         0x0003c695   0x44  Code  Gb  ecc.o [1]
+exit                    0x0003f6f7    0x8  Code  Gb  exit.o [3]
+flash_operation_pending
+                        0x200032f8    0x1  Data  Lc  nrf_dfu_settings.o [1]
+fs_data$$Base           0x20002c90          --   Gb  - Linker created -
+fs_data$$Limit          0x20002ca0          --   Gb  - Linker created -
+fs_dfu_config           0x20002c90   0x10  Data  Gb  nrf_dfu_flash.o [1]
+fs_erase                0x0003cecf   0x74  Code  Gb  fstorage.o [1]
+fs_evt_handler          0x0003c4a9   0x26  Code  Lc  nrf_dfu_flash.o [1]
+fs_fake_init            0x0003ce3d    0xe  Code  Gb  fstorage.o [1]
+fs_queue_is_full        0x0003cfeb   0x10  Code  Gb  fstorage.o [1]
+fs_store                0x0003ce4b   0x84  Code  Gb  fstorage.o [1]
+fs_sys_event_handler    0x0003cf55   0x96  Code  Gb  fstorage.o [1]
+hash                    0x200030d0   0x20  Data  Lc  dfu_req_handling.o [1]
+hash_data               0x20002cbc    0x8  Data  Lc  dfu_req_handling.o [1]
+iar_dfu_trans_start     0x20002c84    0x4  Data  Gb  nrf_dfu_transport.o [1]
+iar_fs_data_end         0x20002c08    0x4  Data  Gb  fstorage.o [1]
+iar_fs_data_start       0x20002c04    0x4  Data  Gb  fstorage.o [1]
+intern_softdevice_events_execute
+                        0x0003d0ed   0x7a  Code  Gb  softdevice_handler.o [1]
+is_conn_params_ok       0x0003ebc1   0x18  Code  Lc  ble_conn_params.o [1]
+iter_from_extension     0x0003b0cd   0x2e  Code  Lc  pb_decode.o [1]
+k                       0x0003ca58  0x100  Data  Lc  sha256.o [1]
+list_deletions_handler  0x0003d38d   0x92  Code  Lc  app_timer.o [1]
+list_insertions_handler
+                        0x0003d41f   0xda  Code  Lc  app_timer.o [1]
+m_ble_evt_buffer_size   0x200037d2    0x2  Data  Lc  softdevice_handler.o [1]
+m_ble_evt_handler       0x200037dc    0x4  Data  Lc  softdevice_handler.o [1]
+m_board_led_list        0x0003dcbc    0x4  Data  Lc  boards.o [1]
+m_callback              0x200032fc    0x4  Data  Lc  nrf_dfu_settings.o [1]
+m_change_param          0x20003769    0x1  Data  Lc  ble_conn_params.o [1]
+m_conn_handle           0x2000376a    0x2  Data  Lc  ble_conn_params.o [1]
+m_conn_handle           0x20002c20    0x2  Data  Lc  nrf_ble_dfu.o [1]
+m_conn_params_config    0x2000374c   0x1c  Data  Lc  ble_conn_params.o [1]
+m_conn_params_timer_id  0x0003ed6c    0x4  Data  Lc  ble_conn_params.o [1]
+m_conn_params_timer_id_data
+                        0x2000376c   0x20  Data  Lc  ble_conn_params.o [1]
+m_current_conn_params   0x20003810    0x8  Data  Lc  ble_conn_params.o [1]
+m_current_data_buffer   0x20002cb0    0x1  Data  Lc  dfu_req_handling.o [1]
+m_data_buf              0x20002cd0  0x400  Data  Lc  dfu_req_handling.o [1]
+m_data_buf_pos          0x20002cb2    0x2  Data  Lc  dfu_req_handling.o [1]
+m_dfu                   0x20002c28   0x14  Data  Lc  nrf_ble_dfu.o [1]
+m_dfu_settings_buffer   0x0003fc00  0x400  Data  Gb  nrf_dfu_settings.o [1]
+m_evt_schedule_func     0x200037cc    0x4  Data  Lc  app_timer.o [1]
+m_evt_schedule_func     0x200037d4    0x4  Data  Lc  softdevice_handler.o [1]
+m_firmware_size_req     0x20002ccc    0x4  Data  Lc  dfu_req_handling.o [1]
+m_firmware_start_addr   0x20002cc8    0x4  Data  Lc  dfu_req_handling.o [1]
+m_flags                 0x20002c00    0x1  Data  Lc  fstorage.o [1]
+m_flags                 0x20002c24    0x4  Data  Lc  nrf_ble_dfu.o [1]
+m_flags                 0x20003818    0x4  Data  Lc  nrf_dfu_flash.o [1]
+m_flash_operations_pending
+                        0x20002cc4    0x4  Data  Lc  dfu_req_handling.o [1]
+m_notif_buffer          0x20002c0c   0x10  Data  Lc  nrf_ble_dfu.o [1]
+m_op_queue              0x200037b0    0x8  Data  Lc  app_timer.o [1]
+m_pkt_notif_target      0x20002c1c    0x2  Data  Lc  nrf_ble_dfu.o [1]
+m_pkt_notif_target_cnt  0x20002c1e    0x2  Data  Lc  nrf_ble_dfu.o [1]
+m_preferred_conn_params
+                        0x20003808    0x8  Data  Lc  ble_conn_params.o [1]
+m_queue                 0x200036e4   0x68  Data  Lc  fstorage.o [1]
+m_queue_end_index       0x200037e5    0x1  Data  Lc  app_scheduler.o [1]
+m_queue_event_data      0x200037f0    0x4  Data  Lc  app_scheduler.o [1]
+m_queue_event_headers   0x200037ec    0x4  Data  Lc  app_scheduler.o [1]
+m_queue_event_size      0x200037e6    0x2  Data  Lc  app_scheduler.o [1]
+m_queue_size            0x200037e8    0x2  Data  Lc  app_scheduler.o [1]
+m_queue_start_index     0x200037e4    0x1  Data  Lc  app_scheduler.o [1]
+m_rand_pool             0x0003f4c4   0x14  Data  Lc  nrf_drv_rng.o [1]
+m_rand_pool_nrf_queue_buffer
+                        0x2000378c   0x24  Data  Lc  nrf_drv_rng.o [1]
+m_rand_pool_nrf_queue_cb
+                        0x200037f4    0xc  Data  Lc  nrf_drv_rng.o [1]
+m_retry_count           0x20002c01    0x1  Data  Lc  fstorage.o [1]
+m_rtc1_reset            0x200037bb    0x1  Data  Lc  app_timer.o [1]
+m_rtc1_running          0x200037ba    0x1  Data  Lc  app_timer.o [1]
+m_softdevice_enabled    0x200037d0    0x1  Data  Lc  softdevice_handler.o [1]
+m_suspended             0x200037d1    0x1  Data  Lc  softdevice_handler.o [1]
+m_sys_evt_handler       0x200037e0    0x4  Data  Lc  softdevice_handler.o [1]
+m_ticks_elapsed         0x200037c4    0x8  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_read_ind
+                        0x200037b8    0x1  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_write_ind
+                        0x200037b9    0x1  Data  Lc  app_timer.o [1]
+m_ticks_latest          0x200037c0    0x4  Data  Lc  app_timer.o [1]
+m_uicr_bootloader_start_address
+                        0x10001014    0x4  Data  Gb  nrf_bootloader_info.o [1]
+m_update_count          0x20003768    0x1  Data  Lc  ble_conn_params.o [1]
+m_valid_init_packet_present
+                        0x20002cb1    0x1  Data  Lc  dfu_req_handling.o [1]
+main                    0x0003d027   0x2a  Code  Gb  main.o [1]
+memcmp                  0x0003c309   0x28  Code  Gb  memcmp.o [5]
+memset                  0x0003f535   0x14  Code  Gb  memset.o [5]
+mp_ble_evt_buffer       0x200037d8    0x4  Data  Lc  softdevice_handler.o [1]
+mp_timer_id_head        0x200037bc    0x4  Data  Lc  app_timer.o [1]
+next_index              0x0003cc11   0x12  Code  Lc  app_scheduler.o [1]
+nrf_bootloader_app_start
+                        0x0003d8b5   0x58  Code  Gb  nrf_bootloader_app_start.o [1]
+nrf_bootloader_init     0x0003dcc1    0x8  Code  Gb  nrf_bootloader.o [1]
+nrf_crypto_hash_compute
+                        0x0003bfd1   0x4c  Code  Gb  nrf_crypto.o [1]
+nrf_crypto_verify       0x0003bfa5   0x2c  Code  Gb  nrf_crypto.o [1]
+nrf_delay_us            0x0003d335   0x26  Code  Lc  app_timer.o [1]
+nrf_dfu_app_continue    0x0003c03b   0xa6  Code  Lc  nrf_dfu_utils.o [1]
+nrf_dfu_app_is_valid    0x0003c247   0x2a  Code  Gb  nrf_dfu_utils.o [1]
+nrf_dfu_bl_continue     0x0003c165   0x34  Code  Lc  nrf_dfu_utils.o [1]
+nrf_dfu_command_req     0x0003bae9  0x10e  Code  Lc  dfu_req_handling.o [1]
+nrf_dfu_continue        0x0003c20f   0x38  Code  Gb  nrf_dfu_utils.o [1]
+nrf_dfu_continue_bank   0x0003c199   0x76  Code  Lc  nrf_dfu_utils.o [1]
+nrf_dfu_data_req        0x0003bc11  0x28e  Code  Lc  dfu_req_handling.o [1]
+nrf_dfu_find_cache      0x0003c271   0x7e  Code  Gb  nrf_dfu_utils.o [1]
+nrf_dfu_flash_erase     0x0003c565   0x7c  Code  Gb  nrf_dfu_flash.o [1]
+nrf_dfu_flash_init      0x0003c4cf   0x2a  Code  Gb  nrf_dfu_flash.o [1]
+nrf_dfu_flash_store     0x0003c4f9   0x6a  Code  Gb  nrf_dfu_flash.o [1]
+nrf_dfu_init            0x0003c605   0x84  Code  Gb  nrf_dfu.o [1]
+nrf_dfu_invalidate_bank
+                        0x0003c027   0x14  Code  Lc  nrf_dfu_utils.o [1]
+nrf_dfu_mbr_compare     0x0003cbbd   0x24  Code  Gb  nrf_dfu_mbr.o [1]
+nrf_dfu_mbr_copy_bl     0x0003cb59   0x1e  Code  Gb  nrf_dfu_mbr.o [1]
+nrf_dfu_mbr_copy_sd     0x0003cb79   0x2a  Code  Gb  nrf_dfu_mbr.o [1]
+nrf_dfu_mbr_init_sd     0x0003cba5   0x18  Code  Gb  nrf_dfu_mbr.o [1]
+nrf_dfu_postvalidate    0x0003b9a5   0xe6  Code  Lc  dfu_req_handling.o [1]
+nrf_dfu_req_handler_init
+                        0x0003be9f   0x50  Code  Gb  dfu_req_handling.o [1]
+nrf_dfu_req_handler_on_req
+                        0x0003bef9   0x40  Code  Gb  dfu_req_handling.o [1]
+nrf_dfu_req_handler_on_req::cur_obj_type
+                        0x20002c8c    0x1  Data  Lc  dfu_req_handling.o [1]
+nrf_dfu_sd_continue_impl
+                        0x0003c0e1   0x84  Code  Lc  nrf_dfu_utils.o [1]
+nrf_dfu_settings_calculate_crc
+                        0x0003c385    0xe  Code  Gb  nrf_dfu_settings.o [1]
+nrf_dfu_settings_init   0x0003c393   0x4a  Code  Gb  nrf_dfu_settings.o [1]
+nrf_dfu_settings_write  0x0003c3dd   0x6c  Code  Gb  nrf_dfu_settings.o [1]
+nrf_dfu_settings_write::temp_dfu_settings
+                        0x20003300  0x15c  Data  Lc  nrf_dfu_settings.o [1]
+nrf_dfu_transports_close
+                        0x0003bf71   0x28  Code  Gb  nrf_dfu_transport.o [1]
+nrf_dfu_transports_init
+                        0x0003bf49   0x28  Code  Gb  nrf_dfu_transport.o [1]
+nrf_dfu_wait            0x0003c5fd    0x8  Code  Gb  nrf_dfu.o [1]
+nrf_gpio_cfg            0x0003dc31   0x1e  Code  Lc  boards.o [1]
+nrf_gpio_pin_write      0x0003dc4f   0x16  Code  Lc  boards.o [1]
+nrf_nvic_state          0x20003800    0x8  Data  Gb  app_util_platform.o [1]
+nrf_nvmc_page_erase     0x0003d261   0x22  Code  Gb  nrf_nvmc.o [1]
+nrf_nvmc_write_words    0x0003d283   0x3a  Code  Gb  nrf_nvmc.o [1]
+nrf_queue_is_full       0x0003f219   0x1e  Code  Gb  nrf_queue.o [1]
+nrf_queue_next_idx      0x0003f1ed   0x10  Code  Lc  nrf_queue.o [1]
+nrf_queue_push          0x0003f237   0xb2  Code  Gb  nrf_queue.o [1]
+on_ble_evt              0x0003e801   0xc6  Code  Lc  nrf_ble_dfu.o [1]
+on_ctrl_pt_write        0x0003e5b9  0x13c  Code  Lc  nrf_ble_dfu.o [1]
+on_dfu_complete         0x0003b7d9   0x18  Code  Lc  dfu_req_handling.o [1]
+on_rw_authorize_req     0x0003e6f5   0x98  Code  Lc  nrf_ble_dfu.o [1]
+on_write                0x0003e799   0x5e  Code  Lc  nrf_ble_dfu.o [1]
+packet                  0x200035b8  0x12c  Data  Lc  dfu_req_handling.o [1]
+pb_dec_bytes            0x0003b551   0x46  Code  Lc  pb_decode.o [1]
+pb_dec_fixed32          0x0003b53d    0xa  Code  Lc  pb_decode.o [1]
+pb_dec_fixed64          0x0003b547    0xa  Code  Lc  pb_decode.o [1]
+pb_dec_string           0x0003b597   0x44  Code  Lc  pb_decode.o [1]
+pb_dec_submessage       0x0003b5db   0x46  Code  Lc  pb_decode.o [1]
+pb_dec_svarint          0x0003b4db   0x62  Code  Lc  pb_decode.o [1]
+pb_dec_uvarint          0x0003b47d   0x5e  Code  Lc  pb_decode.o [1]
+pb_dec_varint           0x0003b423   0x5a  Code  Lc  pb_decode.o [1]
+pb_decode               0x0003b361   0x1c  Code  Gb  pb_decode.o [1]
+pb_decode_fixed32       0x0003b3a9   0x2e  Code  Gb  pb_decode.o [1]
+pb_decode_fixed64       0x0003b3d7   0x4c  Code  Gb  pb_decode.o [1]
+pb_decode_noinit        0x0003b229  0x138  Code  Gb  pb_decode.o [1]
+pb_decode_svarint       0x0003b37d   0x2c  Code  Gb  pb_decode.o [1]
+pb_decode_tag           0x0003ae23   0x4a  Code  Gb  pb_decode.o [1]
+pb_decode_varint        0x0003add9   0x4a  Code  Gb  pb_decode.o [1]
+pb_decode_varint32      0x0003ad7d   0x5c  Code  Lc  pb_decode.o [1]
+pb_decoding_callback    0x0003b7fb   0x1a  Code  Lc  dfu_req_handling.o [1]
+pb_field_iter_begin     0x0003b705   0x24  Code  Gb  pb_common.o [1]
+pb_field_iter_find      0x0003b7ab   0x2e  Code  Gb  pb_common.o [1]
+pb_field_iter_next      0x0003b729   0x82  Code  Gb  pb_common.o [1]
+pb_field_set_to_default
+                        0x0003b15d   0xa6  Code  Lc  pb_decode.o [1]
+pb_istream_from_buffer  0x0003ad5d   0x1c  Code  Gb  pb_decode.o [1]
+pb_make_string_substream
+                        0x0003aec3   0x34  Code  Gb  pb_decode.o [1]
+pb_message_set_to_defaults
+                        0x0003b203   0x26  Code  Lc  pb_decode.o [1]
+pb_read                 0x0003ace3   0x5a  Code  Gb  pb_decode.o [1]
+pb_readbyte             0x0003ad3d   0x20  Code  Lc  pb_decode.o [1]
+pb_skip_field           0x0003ae6d   0x56  Code  Gb  pb_decode.o [1]
+pk                      0x0003f548   0x40  Data  Gb  public_key.o [1]
+queue_advance           0x0003cd6f   0x22  Code  Lc  fstorage.o [1]
+queue_get_next_free     0x0003ce0d   0x30  Code  Lc  fstorage.o [1]
+queue_process           0x0003cd91   0x62  Code  Lc  fstorage.o [1]
+queue_start             0x0003cdf3   0x1a  Code  Lc  fstorage.o [1]
+queue_utilization_get   0x0003f1fd   0x1c  Code  Lc  nrf_queue.o [1]
+response_crc_cmd_send   0x0003e56f   0x4a  Code  Lc  nrf_ble_dfu.o [1]
+response_send           0x0003e545   0x2a  Code  Lc  nrf_ble_dfu.o [1]
+rtc1_stop               0x0003d35b   0x32  Code  Lc  app_timer.o [1]
+s_dfu_settings          0x2000345c  0x15c  Data  Gb  nrf_dfu_settings.o [1]
+scheduler_init{1}{2}::APP_SCHED_BUF
+                        0x200031a8  0x150  Data  Lc  nrf_dfu.o [1]
+sd_nvic_EnableIRQ       0x0003d077   0x6e  Code  Lc  softdevice_handler.o [1]
+send_event              0x0003cd0d   0x48  Code  Lc  fstorage.o [1]
+send_hvx                0x0003e51b   0x2a  Code  Lc  nrf_ble_dfu.o [1]
+sha256_final            0x0003c92f  0x12a  Code  Gb  sha256.o [1]
+sha256_init             0x0003c883   0x36  Code  Gb  sha256.o [1]
+sha256_transform        0x0003c6d9  0x1aa  Code  Gb  sha256.o [1]
+sha256_update           0x0003c8d9   0x56  Code  Gb  sha256.o [1]
+sig                     0x200030f0   0x40  Data  Lc  dfu_req_handling.o [1]
+softdevice_ble_evt_handler_set
+                        0x0003d1b5   0x10  Code  Gb  softdevice_handler.o [1]
+softdevice_enable       0x0003d21f   0x14  Code  Gb  softdevice_handler.o [1]
+softdevice_enable_get_default_config
+                        0x0003d1f1   0x2e  Code  Gb  softdevice_handler.o [1]
+softdevice_evt_get      0x0003f689   0x12  Code  Gb  softdevice_handler_appsh.o [1]
+softdevice_evt_schedule
+                        0x0003f69b    0xe  Code  Gb  softdevice_handler_appsh.o [1]
+softdevice_fault_handler
+                        0x0003d0e5    0x8  Code  Gb  softdevice_handler.o [1]
+softdevice_handler_init
+                        0x0003d16d   0x48  Code  Gb  softdevice_handler.o [1]
+softdevice_handler_is_enabled
+                        0x0003d167    0x6  Code  Gb  softdevice_handler.o [1]
+softdevice_sys_evt_handler_set
+                        0x0003d1c5   0x10  Code  Gb  softdevice_handler.o [1]
+stream                  0x20002ca0   0x10  Data  Lc  dfu_req_handling.o [1]
+timer_list_handler      0x0003d599   0xa0  Code  Lc  app_timer.o [1]
+timer_start_op_schedule
+                        0x0003d675   0x5c  Code  Lc  app_timer.o [1]
+timer_stop_op_schedule  0x0003d6d1   0x4a  Code  Lc  app_timer.o [1]
+timers_init{1}{2}::APP_TIMER_BUF
+                        0x20003130   0x78  Data  Lc  nrf_dfu.o [1]
+uECC_secp256r1          0x0003d90d    0x8  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_verify             0x0003d915  0x2a8  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_add            0x0003e191   0x58  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_clear          0x0003e07b   0x16  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_cmp_unsafe     0x0003dcf3   0x28  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_equal          0x0003e0ed   0x20  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_isZero         0x0003dcd7   0x1c  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_mmod           0x0003e281  0x118  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_modAdd         0x0003f07d   0x32  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_modInv         0x0003dd1b  0x114  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_modMult        0x0003debd   0x26  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_modMult_fast   0x0003e10d   0x20  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_modSquare_fast
+                        0x0003e399   0x20  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_modSub         0x0003def9   0x24  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_mult           0x0003e1e9   0x98  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_numBits        0x0003e025   0x44  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_rshift1        0x0003e12d   0x1e  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_set            0x0003dee3   0x16  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_square         0x0003e3b9   0xa6  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_sub            0x0003e091   0x5c  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uECC_vli_testBit        0x0003e069   0x12  Code  Gb  micro_ecc_lib_uECC.c.o [4]
+uint16_decode           0x0003eba9    0xa  Code  Lc  ble_srv_common.o [1]
+uint32_encode           0x0003e461   0x12  Code  Lc  nrf_ble_dfu.o [1]
+update_timeout_handler  0x0003ebd9   0x54  Code  Lc  ble_conn_params.o [1]
+user_op_alloc           0x0003d641   0x2a  Code  Lc  app_timer.o [1]
+vli_mmod_fast_secp256r1
+                        0x0003ed71  0x1b4  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+vli_modInv_update       0x0003e14d   0x40  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+wait_for_queue          0x0003c373   0x12  Code  Lc  nrf_dfu_settings.o [1]
+x_side_default          0x0003f4d9   0x5c  Code  Lc  micro_ecc_lib_uECC.c.o [4]
+
+
+[1] = E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\dfu\bootloader_secure\pca10028\iar\_build
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = micro_ecc_lib_nrf51.a
+[5] = rt6M_tl.a
+
+  18 668 bytes of readonly  code memory
+     653 bytes of readonly  data memory (+ 4     absolute)
+   5 145 bytes of readwrite data memory (+ 1 024 absolute)
+
+Errors: none
+Warnings: none

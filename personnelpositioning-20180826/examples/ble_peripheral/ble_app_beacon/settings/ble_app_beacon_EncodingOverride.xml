@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\islora\sx1278.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>E:\personnelpositioning\core\personnelpositioning-20180823\examples\ble_peripheral\ble_app_beacon\main.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>E:\personnelpositioning\core\personnelpositioning-20180823\islora\sx1278.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>E:\personnelpositioning\core\personnelpositioning-20180826\examples\ble_peripheral\ble_app_beacon\main.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>E:\personnelpositioning\core\personnelpositioning-20180826\islora\sx1278.c</path>
+        <encoding>System</encoding>
+    </override>
+</userOverrides>

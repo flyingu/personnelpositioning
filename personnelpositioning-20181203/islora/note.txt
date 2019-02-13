@@ -1,0 +1,7 @@
+nrf51822 
+
+flash size              256k         00000-40000
+协议栈size              108K         00000-1afff
+app可用size             148          1b000-40000
+
+参数初始化 gpstimecount，从flash获取，默认5分钟上传一次

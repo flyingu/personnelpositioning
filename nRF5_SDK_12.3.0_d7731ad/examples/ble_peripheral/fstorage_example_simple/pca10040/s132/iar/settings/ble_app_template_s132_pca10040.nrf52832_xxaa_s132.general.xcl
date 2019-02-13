@@ -1,0 +1,13 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"E:\personnelpositioning\core\nRF5_SDK_12.3.0_d7731ad\examples\ble_peripheral\fstorage_example_simple\pca10040\s132\iar\_build\ble_app_template_s132_pca10040.out" 
+
+--plugin "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NordicSemi\nRF52.dmac" 
+
+
+
+
